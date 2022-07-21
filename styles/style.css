@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    ;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.top-banner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: rgb(17, 127, 210);
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 5px gray;
+}
+
+.top-banner img {
+    width: 100%;
+}
+
+.banner-content {
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: aliceblue;
+}
+
+.banner-content h1 {
+    font-size: 4em;
+
+}
+
+.banner-content p {
+    font-size: 1.5em;
+}
+
+.link-button {
+    margin-top: 50px;
+}
+
+.banner-content a {
+    display: inline-block;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: rgb(223, 191, 31);
+    padding: 20px 30px;
+    border-radius: 7px;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.featured-area {
+    display: flex;
+    margin-top: 50px;
+
+}
+
+.article-blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    flex-grow: 1;
+}
+
+.blog {
+    border: solid 2px gray;
+    border-radius: 8px;
+    box-shadow: 8px 8px 5px gray;
+}
+
+.blog-icon {
+    margin: 15px 0;
+    display: flex;
+}
+
+.blog-details {
+    padding: 20px;
+}
+
+.blog-details button {
+    padding: 5px 10px;
+    margin-bottom: 5px;
+}
+
+.blog img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.upcoming-match {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    flex-grow: 1;
+}
+
+.match {
+    border: 1px solid gray;
+    padding: 20px;
+}
+
+.flags {
+    display: flex;
+}
+
+.flags span {
+    margin: 10px;
+}
+
+.menu {
+    width: 300px;
+    height: 250px;
+    margin-right: 25px;
+    background-color: #117FD2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 8px 8px 5px gray;
+}
+
+.menu li {
+    list-style-type: none;
+    margin: 30px;
+    background-color: aliceblue;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.menu .clicked {
+    background-color: rgb(25, 141, 230)
+}
+
+.menu .clicked a {
+    color: white;
+}
+
+
+
+.menu li a {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+
+.time {
+    margin-right: 20px;
+}
+
+footer {
+    background-color: rgb(17, 127, 210);
+}
+
+
+.footer-content {
+    text-align: center;
+    margin-top: 50px;
+    padding: 50px;
+
+}
+
+.footer-content hr {
+    margin: 50px;
+    opacity: .4;
+}
+
+.footer-content h2 {
+    font-size: 2em;
+    color: aliceblue;
+}
+
+.footer-menu a {
+    text-decoration: none;
+    font-weight: 700;
+    color: aliceblue;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: space-around;
+}
